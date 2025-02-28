@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+section{
+    overflow: hidden;
+}
+.little-head{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 106, 255);
+    font-size: 1em;
+}
+.little-head div{
+    display: flex;
+    padding: 5px;
+}
+.little-head div i{
+    padding-right: 6px;
+    color: white;
+}
+.main{
+    height: 100vh;
+   background-color: rgba(0, 0, 0, 0.627);
+   overflow: hidden;
+   position: relative;
+   
+}
+a{
+    text-decoration: none;
+}
+.main img{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+.title-main{
+    text-align: center;
+    margin-top: 300px;
+    color: #ffffff;
+    font-size: 25px;
+    
+}
+.nav{
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.nav i{
+    color:#ffffff;
+    padding: 30px;
+    font-size: 2em;
+    transition: .5s ease;
+}
+.nav i:hover{
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 20px;
+}
+.services{
+    background: url(photos/image\ \(1\).png)no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.p{
+    margin-top: 20px;
+}
+div> .title {
+
+
+    font-size: 1.6em;
+    
+   
+    color: #000000;
+    transition: .5s ease;
+    border-radius:10px ;
+   padding: 20px;
+    margin-top: 50px;
+
+    
+
+
+}
+.title-2{
+
+
+    font-size: 1.6em;
+   
+    color: #000000;
+    transition: .5s ease;
+    border-radius:10px ;
+   position: relative;
+   padding: 15px;
+    margin-top: 50px;
+
+    
+
+
+}
+.main-head{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+   background-color: #fcfcfc;
+}
+.navication{
+    list-style: none;
+    display: flex;
+}
+.navication li{
+    padding: 20px;
+    color: #000;
+    transition: .4s ease;
+}
+.navication li:hover{
+    
+    color: #0048bb; 
+    background-color: #eeeded;
+}
+
+.m{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.title-2{
+    color: #ffffff;
+   
+
+}
+.title:hover{
+    color: #0048bb;
+}
+.title-2:hover{
+    color: #ffffff;
+    
+}    
+.card-container{
+    display: flex;
+    margin-top: 100px;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    overflow: hidden;
+    width: 320px;
+    box-shadow: 0px 20px 45px rgba(1 1 1 / 50%);
+    height: 320px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius:6px ;
+    margin-bottom:100px ;
+    margin-left: 50px;
+    transition: .6s ease;
+    padding-top: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card .icons{
+    font-size: 7em;
+    color: #042f56;
+    
+}
+.card .info h5{
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+.card .info p{
+    font-size: 1em;
+    color: #000000;
+    padding-left:20px ;
+    padding-right:20px ;
+}
+.members{
+    background-color: #002767;
+}
+.members .card-container{
+    justify-content: space-between;
+    justify-content: space-around;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.member-card{
+    width: 320px;
+    height: 640px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-left: 70px;
+
+}
+.member-card .img img{
+    width: 20em;
+    height: 28em;
+
+}
+.member-card .info h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+.member-card:hover img {
+    animation: up-to-down 2s linear  ;
+   
+
+}
+
+.member-card:hover h5,.member-card:hover p {
+    animation: spin-3d 2s  linear;
+}
+
+@keyframes spin-3d {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes up-to-down{
+    
+    30%,80%{
+       transform: rotate(50deg);
+      
+        
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-50deg);
+    }
+   
+}
+.contact{
+    background: url(photos/SL-022122-48700-07.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.memes{
+    background-color: rgb(0, 233, 155);
+    padding-bottom: 100px;
+}
+.green{
+    color: #000000;
+    font-size: 1.6em;
+    transition: .5s ease;
+    border-radius:10px ;
+   padding: 20px;
+    margin-top: 50px;
+}
+.green:hover{
+   color: #ffffff;
+}
+.memes .meme-card {
+    width: 30em;
+    height:  20em;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: solid black 5px;
+    transition: .5s ease;
+    filter:grayscale(1);
+    box-shadow: 0 20px 20px rgb(1,1,1,100%);
+    margin-left: 20px;
+    margin-bottom: 80px;
+
+
+}
+.meme-card:hover{
+    filter: grayscale(0);
+    box-shadow: 0 10px 10px rgb(1,1,1,100%);
+    transform: scale(.99);
+
+
+}
+.meme-card:hover img{
+    padding: -10px;
+}
+.memes img{
+    width: 100%;
+    border-bottom: solid black 4px ;
+}
+.meme-card .info{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.meme-card span{
+    color: #0048bb;
+}
+.meme-card p{
+    color: #000;
+}
+footer{
+    background-color: #042f56;
+    color: #ffffff;
+    display: flex;
+    padding-top: 10px;
+    overflow: hidden;
+    justify-content: space-around;
+    justify-content: space-between;
+
+    
+}
+
+footer .media{
+    font-size: 3em;
+    display: flex;
+    margin-left: 100px;
+
+}
+footer .media i{
+    color: #ffffff;
+    display: block;
+    padding: 30px;
+    transition: .5s ease-out;
+}
+footer .media i:hover{
+    color: #002767;
+    background-color: #ffffff;
+    border-radius: 10%;
+}
+
+footer .lg h2{
+    color: white;
+    font-size: 4em;
+    transition: .3s ease;
+   
+}
+.lg h2:hover{
+    color: #0048bb;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.lg{
+    margin-right: 100px;
+}
+@media(max-width:800px){
+    .main-head .navication li{
+        padding: 10px;
+       }
+    .main-head .logo{
+        font-size: 14px;
+    }
+    footer{
+        font-size: 10px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    footer .media{
+        align-items: center;
+        text-align: center;
+        margin: auto;
+      
+    }
+    .lg{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media(max-width:700px){
+    .main-head .navication li{
+        padding: 7px;
+        font-size: 14px;
+       }
+    .main-head .logo{
+        font-size: 12px;
+    }
+    .main-head{
+        font-size: 11px;
+        padding-left: 1px;
+        padding-right: 5px;
+    }
+}
+
+@media(max-width:330px){
+    .little-head{
+        font-size: 10px;
+    }
+    .main-head {
+        font-size: 12px;
+    }
+    .logo{
+        padding: 0;
+        font-size: 10px;
+    }
+}
+@media(max-width:370px){
+    .main .title-main{
+        font-size: 20px;
+        margin-top: 200px;
+    }
+}
+@media(max-width:390px){
+    .member-card{
+        padding-right: 100px;
+    }
+    .member-card img{
+        padding-right: 100px;
+        padding-top:50px ;
+    }
+}
+@media(max-width:320px){
+    .member-card{
+        padding-right: 150px;
+    }
+    .member-card img{
+        padding-right: 150px;
+        padding-top:100px ;
+    }
+
+}
+@media(max-width:290px){
+    .member-card{
+        padding-right: 200px;
+        margin-bottom: 20px;
+    }
+    .member-card img{
+        padding-right: 200px;
+        padding-top:150px ;
+    
+    }
+}
+@media(max-width:280px){
+    .little-head{
+        font-size: 8px;
+    }
+    .main-head{
+        font-size: 10px;
+    }
+    .main .title-main{
+        font-size: 17px;
+        margin-top: 200px;
+    }
+    .main i{
+        font-size: 27px;
+    }
+}
+@media(max-width:550px){
+    .little-head{
+     font-size: 13px;
+    }
+    .main-head .logo{
+     font-size: 12px;
+     padding-top: 10px;
+    }
+    .main-head .navication li{
+     padding: 6px;
+     font-size: 13px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+    }
+    .main-head{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .memes .meme-card{
+        filter: grayscale(0);
+    }
+   
+ }
+ 
+ @media(max-width:420px){
+    .little-head{
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 12px;
+    }
+    .main-head .logo{
+       font-size: 10px;
+    }
+    .main-head .navication li{
+       
+        font-size: 10px;
+    }
+    .card{
+        margin-right:30px;
+    }
+    .member-card{
+        margin-right: 100px;
+    }
+    
+
+    
+}
+
+
+@media(max-width:460px){
+    .main img{
+        width: 150%;
+    }
+}
+@media(max-width:320px){
+    .little-head{
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 9px;
+    }
+    .main-head .logo{
+       font-size: 10px;
+    }
+    .main-head .navication li{
+       
+        font-size: 10px;
+    }
+   
+        .main img{
+            width: 170%;
+        }
+   
+    
+
+    
+}
+@media(max-width:270px){
+    .main img{
+        width: 150%;
+        height: 100vh;
+    }
+}
+
+@media(max-width:260px){
+    .little-head{
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 8px;
+    }
+    .main-head .logo{
+       font-size: 10px;
+    }
+    .main-head .navication li{
+       
+        font-size: 9px;
+        padding: 4px;
+    }
+    
+
+    
+}
+@media(max-width:500px){
+   .memes .meme-card{
+    margin-right: 10px;
+    width: 25em;
+    height: 17em;
+
+   }
+}
+@media(max-width:430px){
+    .memes .meme-card{
+     margin-right: 10px;
+     width: 20em;
+     height: 15em;
+ 
+    }
+    
+ }
+ @media(max-width:340px){
+    .memes .meme-card{
+     margin-right: 10px;
+     width: 16em;
+     height: 12em;
+ 
+    }
+ }
+ @media(max-width:270px){
+    .memes .meme-card{
+     margin-right: 10px;
+     width: 14em;
+     height: 11em;
+ 
+    }
+ }
+ @media(max-width:235px){
+    .memes .meme-card{
+     margin-right: 10px;
+     width: 12em;
+     height: 10em;
+ 
+    }
+ }
+ @media(max-width:170px){
+    .main i{
+        padding: 10px;
+        display: block;
+    }
+ }
+@media(max-width:235px){
+    .little-head{
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 6px;
+    }
+    .main-head .logo{
+       font-size: 10px;
+    }
+    .main-head .navication li{
+       
+        font-size: 8.5px;
+        padding: 3px;
+    }
+    .main .title-main{
+        font-size: 15px;
+        margin-top: 200px;
+    }
+    
+
+    
+}
+@media(max-width:205px){
+    .little-head{
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 5px;
+    }
+    .main-head .logo{
+       font-size: 10px;
+    }
+    .main-head .navication li{
+       
+        font-size: 7px;
+        padding: 2px;
+    }
+    
+
+    
+}
